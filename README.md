@@ -2,8 +2,6 @@
 
 Small [Kirby](https://getkirby.com) plugin to link `slug` and respective `id` in a multilanguage installation and expose them at `/slug-to-id` as JSON. 
 
-> **WARNING**: Do not use this plugin in a Kirby installtion with a lot of pages!
-
 ## Installation
 
 ### Download
