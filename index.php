@@ -6,9 +6,9 @@ Kirby::plugin('studioscholz/slug-to-id', [
         'pattern' => 'slug-to-id',
         'method'  => 'GET',
         'action'  => function () {
-          $base = dirname(__DIR__, 3);
+          $base = kirby()->root('site');
           // Include languages
-          $languageFiles = glob($base . '/site/languages' . '/*.php');
+          $languageFiles = glob($base . '/languages' . '/*.php');
           $languages = array();
           foreach ($languageFiles as $language) {
             $languages[] = include $language;
