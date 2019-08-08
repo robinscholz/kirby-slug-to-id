@@ -1,4 +1,4 @@
-# 🔄 Slug to ID plugin
+# 🔄 Slug to ID
 
 Small [Kirby](https://getkirby.com) plugin to link `slug` and respective `id` in a multilanguage installation and expose them at `/slug-to-id` as JSON. 
 
